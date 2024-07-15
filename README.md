@@ -24,7 +24,7 @@ This project aims to build and evaluate multiple machine learning models for the
 Breast cancer is one of the most common cancers among women worldwide. Early detection and diagnosis are crucial for effective treatment and improving survival rates. This project explores the use of machine learning models to classify breast cancer instances as benign or malignant.
 
 ## Dataset
-The dataset used in this project is the Breast Cancer Dataset from Kaggle. It contains 569 instances of breast cancer cases, each with 30 features .
+The dataset used in this project is the Breast Cancer Dataset from Kaggle. It contains 569 instances of breast cancer cases, each with 30 features.
 ## Features
 * id                                         
 * radius_mean                
@@ -86,6 +86,9 @@ We evaluate the performance of each model using the following metrics:
 * confusion metrics
 * classification report
 * Area Under the ROC Curve (AUC-ROC)
+* ![ROC Curve](ROC-AUC.png)
+
+
 ## Results
 The models are evaluated on a test set, and the ROC curves are plotted for each model to visualize their performance. Below is an example of how to interpret the results:
 
